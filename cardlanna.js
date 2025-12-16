@@ -1,4 +1,19 @@
-import React, { useState, useRef } from 'react';
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards de Amor - 1 Mês 💕</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div id="root"></div>
+    
+    <script type="text/babel">
+      import React, { useState, useRef } from 'react';
 import { Heart, Sparkles, ArrowLeft, ArrowRight } from 'lucide-react';
 
 const LoveCardsGame = () => {
@@ -412,3 +427,6 @@ const LoveCardsGame = () => {
 };
 
 export default LoveCardsGame;
+    </script>
+</body>
+</html>
